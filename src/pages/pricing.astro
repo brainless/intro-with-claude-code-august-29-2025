@@ -1,0 +1,270 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Pricing - PartyManager</title>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+	</head>
+	<body class="bg-gradient-to-br from-amber-50 to-orange-50">
+		<Header />
+		
+		<!-- Hero Section -->
+		<section class="container mx-auto px-4 py-20 text-center">
+			<h1 class="text-5xl md:text-7xl font-bold text-amber-900 mb-6" style="font-family: 'Playfair Display', serif;">
+				Simple, Affordable Pricing
+			</h1>
+			<p class="text-xl text-amber-800 mb-8 max-w-3xl mx-auto" style="font-family: 'Inter', sans-serif;">
+				One plan, all features included. Start managing your community events today with transparent pricing and no hidden fees.
+			</p>
+		</section>
+
+		<!-- Pricing Card Section -->
+		<section class="bg-white/50 backdrop-blur-sm py-20">
+			<div class="container mx-auto px-4">
+				<div class="max-w-lg mx-auto">
+					<div class="bg-white/90 backdrop-blur-sm p-10 rounded-3xl border-2 border-amber-200 shadow-2xl relative overflow-hidden">
+						<!-- Popular Badge -->
+						<div class="absolute top-0 right-0 bg-gradient-to-r from-amber-500 to-orange-500 text-white px-6 py-2 rounded-bl-2xl">
+							<span class="font-semibold">Most Popular</span>
+						</div>
+						
+						<div class="text-center mb-8">
+							<h2 class="text-3xl font-bold text-amber-900 mb-2" style="font-family: 'Playfair Display', serif;">
+								Community Pro
+							</h2>
+							<p class="text-amber-700 mb-6">Perfect for all community organizers</p>
+							
+							<div class="mb-6">
+								<span class="text-6xl font-bold text-amber-900">$60</span>
+								<span class="text-xl text-amber-700">/year</span>
+							</div>
+							
+							<div class="bg-amber-50 px-4 py-2 rounded-full inline-block mb-6">
+								<span class="text-amber-800 font-medium">That's just $5/month!</span>
+							</div>
+						</div>
+
+						<!-- Features List -->
+						<div class="space-y-4 mb-8">
+							<div class="flex items-center space-x-3">
+								<div class="w-6 h-6 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+									<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+								<span class="text-amber-800">Unlimited events and participants</span>
+							</div>
+							
+							<div class="flex items-center space-x-3">
+								<div class="w-6 h-6 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+									<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+								<span class="text-amber-800">Multi-moderator collaboration</span>
+							</div>
+							
+							<div class="flex items-center space-x-3">
+								<div class="w-6 h-6 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+									<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+								<span class="text-amber-800">Advanced RSVP management</span>
+							</div>
+							
+							<div class="flex items-center space-x-3">
+								<div class="w-6 h-6 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+									<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+								<span class="text-amber-800">Community chat and messaging</span>
+							</div>
+							
+							<div class="flex items-center space-x-3">
+								<div class="w-6 h-6 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+									<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+								<span class="text-amber-800">Analytics and insights</span>
+							</div>
+							
+							<div class="flex items-center space-x-3">
+								<div class="w-6 h-6 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+									<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+								<span class="text-amber-800">Calendar integrations</span>
+							</div>
+							
+							<div class="flex items-center space-x-3">
+								<div class="w-6 h-6 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+									<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+								<span class="text-amber-800">Email support</span>
+							</div>
+							
+							<div class="flex items-center space-x-3">
+								<div class="w-6 h-6 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center flex-shrink-0">
+									<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+								<span class="text-amber-800">30-day money-back guarantee</span>
+							</div>
+						</div>
+
+						<!-- CTA Button -->
+						<a href="https://buy.stripe.com/test_00g5kE8kU6PL3LicMM" target="_blank" rel="noopener noreferrer" class="block w-full bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+							Get Started - Pay with Stripe
+						</a>
+						
+						<!-- Fallback button with JavaScript -->
+						<button onclick="redirectToStripe()" class="stripe-button hidden w-full bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+							Get Started - Pay with Stripe (JS)
+						</button>
+						
+						<p class="text-center text-amber-600 text-sm mt-4">
+							Secure payment powered by Stripe • Cancel anytime
+						</p>
+						<div class="bg-amber-50 border border-amber-200 rounded-lg p-4 mt-4">
+							<p class="text-amber-800 text-sm text-center">
+								<strong>Test Mode:</strong> Use card 4242 4242 4242 4242 with any future date and CVC to test checkout
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Features Highlight -->
+		<section class="py-20">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-16">
+					<h2 class="text-4xl md:text-5xl font-bold text-amber-900 mb-4" style="font-family: 'Playfair Display', serif;">
+						Why Choose PartyManager?
+					</h2>
+					<p class="text-xl text-amber-800 max-w-2xl mx-auto">
+						Everything you need to organize successful community events, all in one affordable package.
+					</p>
+				</div>
+				
+				<div class="grid md:grid-cols-3 gap-8">
+					<div class="bg-white/70 backdrop-blur-sm p-8 rounded-2xl border border-amber-100 text-center">
+						<div class="w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center mx-auto mb-6">
+							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+							</svg>
+						</div>
+						<h3 class="text-2xl font-bold text-amber-900 mb-4">No Hidden Fees</h3>
+						<p class="text-amber-700">One transparent price covers everything. No per-event charges, no user limits, no surprises.</p>
+					</div>
+					
+					<div class="bg-white/70 backdrop-blur-sm p-8 rounded-2xl border border-amber-100 text-center">
+						<div class="w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center mx-auto mb-6">
+							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+							</svg>
+						</div>
+						<h3 class="text-2xl font-bold text-amber-900 mb-4">Instant Setup</h3>
+						<p class="text-amber-700">Get started immediately after payment. No lengthy onboarding or complex setup processes.</p>
+					</div>
+					
+					<div class="bg-white/70 backdrop-blur-sm p-8 rounded-2xl border border-amber-100 text-center">
+						<div class="w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center mx-auto mb-6">
+							<svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M12 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+							</svg>
+						</div>
+						<h3 class="text-2xl font-bold text-amber-900 mb-4">Always Updated</h3>
+						<p class="text-amber-700">Receive all new features and updates automatically. Your subscription grows with our platform.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FAQ Section -->
+		<section class="bg-white/50 backdrop-blur-sm py-20">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-16">
+					<h2 class="text-4xl md:text-5xl font-bold text-amber-900 mb-4" style="font-family: 'Playfair Display', serif;">
+						Frequently Asked Questions
+					</h2>
+				</div>
+				
+				<div class="max-w-3xl mx-auto space-y-6">
+					<div class="bg-white/70 backdrop-blur-sm p-6 rounded-2xl border border-amber-100">
+						<h3 class="font-bold text-amber-900 mb-3">Is there a free trial?</h3>
+						<p class="text-amber-700">Yes! We offer a 14-day free trial with full access to all features. No credit card required to start.</p>
+					</div>
+					
+					<div class="bg-white/70 backdrop-blur-sm p-6 rounded-2xl border border-amber-100">
+						<h3 class="font-bold text-amber-900 mb-3">Can I cancel anytime?</h3>
+						<p class="text-amber-700">Absolutely. You can cancel your subscription at any time through your account settings. No cancellation fees.</p>
+					</div>
+					
+					<div class="bg-white/70 backdrop-blur-sm p-6 rounded-2xl border border-amber-100">
+						<h3 class="font-bold text-amber-900 mb-3">Is my payment secure?</h3>
+						<p class="text-amber-700">Yes, all payments are processed securely through Stripe, which is trusted by millions of businesses worldwide.</p>
+					</div>
+					
+					<div class="bg-white/70 backdrop-blur-sm p-6 rounded-2xl border border-amber-100">
+						<h3 class="font-bold text-amber-900 mb-3">What if I need help getting started?</h3>
+						<p class="text-amber-700">We provide comprehensive onboarding resources and email support to help you get the most out of PartyManager.</p>
+					</div>
+					
+					<div class="bg-white/70 backdrop-blur-sm p-6 rounded-2xl border border-amber-100">
+						<h3 class="font-bold text-amber-900 mb-3">Are there any limits on events or users?</h3>
+						<p class="text-amber-700">No limits! Create unlimited events, invite unlimited participants, and add as many moderators as you need.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<Footer />
+
+		<script>
+			// Ensure the function is available globally
+			window.redirectToStripe = function() {
+				console.log('Redirecting to Stripe checkout...');
+				
+				// Test Stripe Checkout URL - this is a real test environment
+				// You can use test card 4242 4242 4242 4242 with any future date and CVC
+				const stripeUrl = 'https://buy.stripe.com/test_00g5kE8kU6PL3LicMM';
+				
+				// Try window.open first, fallback to window.location
+				try {
+					const newWindow = window.open(stripeUrl, '_blank', 'noopener,noreferrer');
+					if (!newWindow) {
+						// Popup blocked, redirect in same window
+						window.location.href = stripeUrl;
+					}
+				} catch (error) {
+					console.error('Error opening Stripe checkout:', error);
+					// Fallback to same window redirect
+					window.location.href = stripeUrl;
+				}
+			};
+
+			// Also add click handler when DOM is loaded
+			document.addEventListener('DOMContentLoaded', function() {
+				const button = document.querySelector('.stripe-button');
+				if (button) {
+					button.addEventListener('click', window.redirectToStripe);
+				}
+			});
+		</script>
+	</body>
+</html>
